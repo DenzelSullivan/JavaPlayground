@@ -1,6 +1,10 @@
 import java.util.*;
 
 public class RockPaperScissors {
+    public static void main(String[] args) {
+        RockPaperScissors game = new RockPaperScissors();
+        game.start();
+    }
 
     ArrayList<GameChoice> choices = new ArrayList<>();
     Random random = new Random();
